@@ -1,0 +1,15 @@
+name: "ESP32-RTOS-SDK (IDF Style) Build"
+description: "This action build your firmware directly in github using Espressif Native SDK and Toolkit."
+branding:
+  color: blue
+  icon: check
+inputs:
+  makearg:
+    description: "Arguments to pass for make"
+    required: false
+    default: "defconfig all size-components"
+runs:
+  using: "docker"
+  image: "Dockerfile"
+  args:
+    - ${{ inputs.makearg }}
