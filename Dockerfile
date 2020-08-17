@@ -1,4 +1,4 @@
-FROM mgos/esp32-build
+FROM espressif/idf
 
 COPY entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
