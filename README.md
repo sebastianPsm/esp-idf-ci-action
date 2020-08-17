@@ -7,9 +7,9 @@ See [sebastianPsm/esp32_mass](https://github.com/sebastianPsm/esp32_mass) /.gith
 ## Usage
 Paste
 
-'''
+```
 - name: esp-idf build
   uses: sebastianPsm/esp-idf-ci-action@1
-'''
+```
 
 into your workflow .yml file.
