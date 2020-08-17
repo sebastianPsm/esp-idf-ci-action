@@ -1,2 +1,2 @@
-# esp32-ci-env-action
+# esp-idf-ci-action
 GitHub Action for ESP32 CI
