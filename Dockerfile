@@ -1,3 +1,3 @@
 FROM espressif/idf
 
-ENTRYPOINT ["idf.py" "build"]
+CMD ["idf.py" "build"]
