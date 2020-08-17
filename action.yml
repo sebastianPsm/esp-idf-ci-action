@@ -1,5 +1,5 @@
-name: "ESP32-RTOS-SDK (IDF Style) Build"
-description: "This action build your firmware directly in github using Espressif Native SDK and Toolkit."
+name: "espressif idf build"
+description: "This action build your firmware directly in github using Espressif idf SDK."
 branding:
   color: blue
   icon: check
